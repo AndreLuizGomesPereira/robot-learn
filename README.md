@@ -8,5 +8,6 @@ Projeto de estudo da ferramenta Python com Robot Framework
 > - rode o comando em seu terminal`pip install robotframework`
 > - rode o comando em seu terminal`pip install robotframework-seleniumlibrary`
 
-## Organizar report do Robot
-> - `robot -d ./log <testFilename>`
+## Comandos para organização
+> - Para organização do report do Robot`robot -d ./log <testFilename>`
+> - Inserindo uma tag no cenário de teste, abaixo da keyword coloque `[tags]     <tagName>`. No terminal execute `robot -i <tagName> <testFilename>`
