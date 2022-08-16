@@ -11,4 +11,5 @@ Nova sessão
     Open Browser    ${url}    firefox
 
 Encerra sessão
+    Capture Page Screenshot
     Close Browser
