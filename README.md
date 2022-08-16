@@ -7,3 +7,6 @@ Projeto de estudo da ferramenta Python com Robot Framework
 ## Instalar o Robot Framework + Selenium
 > - rode o comando em seu terminal`pip install robotframework`
 > - rode o comando em seu terminal`pip install robotframework-seleniumlibrary`
+
+## Organizar report do Robot
+> - `robot -d ./log <testFilename>`
